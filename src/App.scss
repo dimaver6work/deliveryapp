@@ -1,0 +1,17 @@
+@import './Navbar';
+@import './null';
+@import './Slider';
+@import './MakeBag';
+@import './Delivery';
+@import './Categories';
+@import './Benefits';
+@import './Footer';
+
+.conteiner {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

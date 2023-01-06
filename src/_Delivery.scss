@@ -1,0 +1,29 @@
+.delivery {
+    margin-bottom: 140px;
+    h2 {
+        font-size: 32px;
+        margin-bottom: 50px;
+    }
+    .eight {
+        max-width: 1200px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+
+        .food {
+            position: relative;
+            .food_text {
+                position: absolute;
+                top: 16px;
+                left: 10px;
+                font-size: 20px;
+                background-color: #9e9eab;
+                color: white;
+                border-radius: 30px;
+                padding: 3px;
+            }
+        }
+    }
+}

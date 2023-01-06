@@ -1,0 +1,116 @@
+.benefits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 230px;
+
+    img {
+        margin-bottom: 36px;
+    }
+
+    h2 {
+        font-size: 32px;
+        margin-bottom: 52px;
+    }
+
+    .four {
+        display: flex;
+        gap: 40px;
+
+        .benefit {
+            padding: 33px;
+
+            width: 270px;
+            border: 1px solid #e9e9e9;
+            box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+            border-radius: 18px;
+            transition: 0.3s linear;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            .link1 {
+                width: 0px;
+                height: 0px;
+                background-color: #000;
+                display: block;
+                mask-image: url('./assets/icon1.svg');
+            }
+            .div1 {
+                height: 60px;
+                width: 60px;
+                background-color: #f37321;
+                mask-image: url('./assets/icon1.svg');
+                margin-bottom: 35px;
+            }
+            .link2 {
+                width: 0px;
+                height: 0px;
+                background-color: #000;
+                display: block;
+                mask-image: url('./assets/icon2.svg');
+            }
+            .div2 {
+                height: 60px;
+                width: 60px;
+                background-color: #f37321;
+                mask-image: url('./assets/icon2.svg');
+                margin-bottom: 35px;
+            }
+            .link3 {
+                width: 0px;
+                height: 0px;
+                background-color: #000;
+                display: block;
+                mask-image: url('./assets/icon3.svg');
+            }
+            .div3 {
+                height: 60px;
+                width: 60px;
+                background-color: #f37321;
+                mask-image: url('./assets/icon3.svg');
+                margin-bottom: 35px;
+            }
+            .link4 {
+                width: 0px;
+                height: 0px;
+                background-color: #000;
+                display: block;
+                mask-image: url('./assets/icon4.svg');
+            }
+            .div4 {
+                height: 60px;
+                width: 60px;
+                background-color: #f37321;
+                mask-image: url('./assets/icon4.svg');
+                margin-bottom: 35px;
+            }
+
+            h3 {
+                margin-bottom: 15px;
+            }
+            span {
+                font-size: 14px;
+                color: #49494f;
+                line-height: 22px;
+            }
+        }
+
+        .benefit:hover {
+            background-color: #f37321;
+            .div1,
+            .div2,
+            .div3,
+            .div4 {
+                background-color: #fff;
+            }
+            span,
+            h3 {
+                color: #ffffff;
+            }
+        }
+    }
+}
